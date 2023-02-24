@@ -1,22 +1,57 @@
+<html lang="ko">
+
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="https://www.kihf.or.kr/images/common/favicon.ico">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="https://www.kihf.or.kr/images/common/favicon.ico">
 <title>한국건강가정진흥원 빅데이터</title>
-</head>  
+	<style>
+		div.page {
+			border: 3px solid #CD5C5C;
+			overflow: auto;
+		}
+		h2 { text-align: center; }
+		header{ border: 3px solid #FFD700; }
+		nav {
+			border: 3px solid #FF1493;
+			width: 150px;
+			float: left;
+		}
+		section {
+			border: 3px solid #00BFFF;
+			margin-left: 156px;
+		}
+		footer{ border: 3px solid #00FA9A; }
+	</style>
+</head>
 
 <body>
-<p align="center">
-<iframe title="가족서비스"
+
+	<h1>float 속성을 이용한 레이아웃</h1>
+	<div class="page">
+		
+		<header>
+			<h2>header 영역</h2>
+		</header>
+		<nav>
+			<h2>nav 영역</h2>
+			<p>여기에는 보통 메뉴가 들어갑니다.</p>
+		</nav>
+		<section>
+			<iframe title="가족서비스"
         width="1024"
         height="1060"
         src="https://app.powerbi.com/view?r=eyJrIjoiMjdkOTFiNWMtZDlmNS00N2MzLTk1OWItZWEwMDNjNDE3M2IzIiwidCI6ImE1OThjMDc3LWRiNjYtNDlkNy1iOGViLTA2YTk2NGE0N2EzYyJ9"
         frameborder="0"
         align="middle"
         allowFullScreen="true"></iframe>
-</p>
-
-<br>
-
-<p align="center">
+		</section>
+		<footer>
+			<p align="center">
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkihfdata%2Ffamily%2F&count_bg=%236FFF81&title_bg=%23A66B1E&icon=&icon_color=%23E90000&title=hits&edge_flat=true"/></a>
 </p>
+		</footer>
+	</div>
+
 </body>
+
+</html>
